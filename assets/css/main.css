@@ -3071,7 +3071,7 @@ input, select, textarea {
 
 .languages-buttons a {
 	text-decoration: none;
-	margin: 0px 10px;
+	margin: 10px 10px;
 	display: inline-block;
 	border: 0;
 	cursor: pointer;
