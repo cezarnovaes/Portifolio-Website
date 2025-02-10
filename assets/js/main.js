@@ -328,7 +328,7 @@ en = {
               "Web Scraping & Automation – Developing and managing over 100 crawlers using Puppeteer, Node.js, and Java.",
               "Scalable Data Processing – Organizing automated execution and data integration into the platform."
             ],
-            "githubLink": "https://github.com/yourusername/Projeto_IEMI"
+            "githubLink": "https://iemi.com.br/ferramenta-de-pricing/"
           },
           {
             "title": "Credit Card Registration System",
@@ -427,7 +427,7 @@ pt = {
               "Web Scraping & Automação – Desenvolvimento e gerenciamento de mais de 100 crawlers usando Puppeteer, Node.js e Java.",
               "Processamento de Dados Escalável – Organização da execução automatizada e integração dos dados na plataforma."
             ],
-            "githubLink": "https://github.com/seuusuario/Projeto_IEMI"
+            "githubLink": "https://iemi.com.br/ferramenta-de-pricing/"
           },          
           {
             "title": "Sistema de Cadastro de Cartões de Crédito",
