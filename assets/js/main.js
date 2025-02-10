@@ -201,7 +201,6 @@ var pt = {
 }
 
 function toggleReadMore(readMore) {
-  console.log(readMore)
 	var moreText = document.getElementById("more-text-" + readMore);
 	var btn = document.getElementById("read-more-btn-" + readMore);
 	
@@ -233,11 +232,12 @@ function setupLanguageButtons() {
             changeLanguage('en'); // Altera o idioma para inglês
         };
     }
+
+    updateContent(en);
 }
 
 // Configura os botões quando a página for carregada
 window.onload = setupLanguageButtons;
-window.onload = updateContent(en);
 
 function changeLanguage(lang) {
     if (lang === 'en') {
