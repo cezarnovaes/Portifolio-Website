@@ -34,6 +34,7 @@ function setupLanguageButtons() {
 
 // Configura os botões quando a página for carregada
 window.onload = setupLanguageButtons;
+window.onload = updateContent(en);
 
 function changeLanguage(lang) {
     if (lang === 'en') {
@@ -317,12 +318,18 @@ en = {
             ],
             "githubLink": "https://github.com/cezarnovaes/Projeto_Passagens"
           },
-        //   {
-        //     "title": "Netshoes Web Scraper",
-        //     "image": "images/pic07.jpg",
-        //     "description": "This project involved the development of a web crawler and scraper in JavaScript, using Puppeteer to extract footwear data (such as product names, prices, descriptions, and ratings) from the Netshoes website. The scraper navigates through the site, collects structured data, and stores it in a JSON file for further analysis. This project demonstrates my skills in web scraping, data extraction, and automation, as well as my ability to handle challenges like dynamic content and website structure changes.",
-        //     "githubLink": "#"
-        //   },
+          {
+            "title": "Market Pricing Analysis Platform (IEMI)",
+            "image": "images/ProjetoIEMI.png",
+            "description": "I developed a full-stack web platform for market price analysis, integrating data collected by over 100 web scrapers. The system features an interactive dashboard displaying key insights and various graphical interfaces for price analysis. Additionally, I contributed to the automation and management of web crawlers to ensure efficient data extraction and processing.",
+            "skills": [
+              "Full-Stack Development – Building a responsive and intuitive web platform for price analysis.",
+              "Dashboard & Data Visualization – Designing interactive dashboards and graphical reports.",
+              "Web Scraping & Automation – Developing and managing over 100 crawlers using Puppeteer, Node.js, and Java.",
+              "Scalable Data Processing – Organizing automated execution and data integration into the platform."
+            ],
+            "githubLink": "https://github.com/yourusername/Projeto_IEMI"
+          },
           {
             "title": "Credit Card Registration System",
             "image": "images/pic05.jpg",
@@ -410,12 +417,18 @@ pt = {
             ],
             "githubLink": "https://github.com/cezarnovaes/Projeto_Passagens"
           },
-        //   {
-        //     "title": "Web Scraper da Netshoes",
-        //     "image": "images/pic07.jpg",
-        //     "description": "Este projeto envolveu o desenvolvimento de um crawler e scraper em JavaScript, utilizando Puppeteer para extrair dados de calçados (como nomes de produtos, preços, descrições e avaliações) do site da Netshoes. O scraper navega pelo site, coleta dados estruturados e os armazena em um arquivo JSON para análise posterior. Este projeto demonstra minhas habilidades em web scraping, extração de dados e automação, bem como minha capacidade de lidar com desafios como conteúdo dinâmico e mudanças na estrutura do site.",
-        //     "githubLink": "#"
-        //   },
+          {
+            "title": "Plataforma de Análise de Preços de Mercado (IEMI)",
+            "image": "images/ProjetoIEMI.png",
+            "description": "Desenvolvi uma plataforma web full-stack para análise de preços de mercado, integrando dados coletados por mais de 100 robôs de web scraping. O sistema conta com um dashboard interativo exibindo insights principais e diversas interfaces gráficas para análise de preços. Além disso, atuei na automação e gerenciamento dos crawlers para garantir uma extração e processamento eficiente dos dados.",
+            "skills": [
+              "Desenvolvimento Full-Stack – Construção de uma plataforma web responsiva e intuitiva para análise de preços.",
+              "Dashboard & Visualização de Dados – Criação de dashboards interativos e relatórios gráficos.",
+              "Web Scraping & Automação – Desenvolvimento e gerenciamento de mais de 100 crawlers usando Puppeteer, Node.js e Java.",
+              "Processamento de Dados Escalável – Organização da execução automatizada e integração dos dados na plataforma."
+            ],
+            "githubLink": "https://github.com/seuusuario/Projeto_IEMI"
+          },          
           {
             "title": "Sistema de Cadastro de Cartões de Crédito",
             "image": "images/pic05.jpg",
