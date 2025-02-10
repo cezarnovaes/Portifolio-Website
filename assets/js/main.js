@@ -45,6 +45,7 @@ var en = {
             "API Integration – Connecting with WhatsApp and Telegram for automated notifications.",
             "Process Optimization – Automating data filtering and message delivery for seamless user experience."
           ],
+          "readMore": "passagens",
           "githubLink": "https://github.com/cezarnovaes/Projeto_Passagens"
         },
         {
@@ -57,6 +58,7 @@ var en = {
             "Web Scraping & Automation – Developing and managing over 100 crawlers using Puppeteer, Node.js, and Java.",
             "Scalable Data Processing – Organizing automated execution and data integration into the platform."
           ],
+          "readMore": "iemi",
           "githubLink": "https://iemi.com.br/ferramenta-de-pricing/"
         },
         {
@@ -144,6 +146,7 @@ var pt = {
             "Integração de API – Conexão com WhatsApp e Telegram para notificações automatizadas.",
             "Otimização de Processos – Automação da filtragem de dados e entrega de mensagens para uma experiência de usuário perfeita."
           ],
+          "readMore": "passagens",
           "githubLink": "https://github.com/cezarnovaes/Projeto_Passagens"
         },
         {
@@ -156,6 +159,7 @@ var pt = {
             "Web Scraping & Automação – Desenvolvimento e gerenciamento de mais de 100 crawlers usando Puppeteer, Node.js e Java.",
             "Processamento de Dados Escalável – Organização da execução automatizada e integração dos dados na plataforma."
           ],
+          "readMore": "iemi",
           "githubLink": "https://iemi.com.br/ferramenta-de-pricing/"
         },          
         {
@@ -196,9 +200,10 @@ var pt = {
   }
 }
 
-function toggleReadMore() {
-	var moreText = document.getElementById("more-text");
-	var btn = document.getElementById("read-more-btn");
+function toggleReadMore(readMore) {
+  console.log(readMore)
+	var moreText = document.getElementById("more-text-" + readMore);
+	var btn = document.getElementById("read-more-btn-" + readMore);
 	
 	if (moreText.style.display === "none") {
 		moreText.style.display = "block";
@@ -291,7 +296,7 @@ function updateContent(data) {
 								</a>
 								<h3 class="major">${project.title}</h3>
 								<p>${project.description}</p>
-								${skillsHTML ? `<span id="more-text" style="display: none;">${skillsHTML}</span> <button id="read-more-btn" onclick="toggleReadMore()" class="special">Read More</button><p></p>` : '<p></p>'}
+								${skillsHTML ? `<span id="more-text-${project.readMore}" style="display: none;">${skillsHTML}</span> <button id="read-more-btn-${project.readMore}" onclick="toggleReadMore('${project.readMore}')" class="special">Read More</button><p></p>` : '<p></p>'}
 								<a href="${project.githubLink}" class="special" target="_blank">GitHub Page</a>
 							</article>
 						`;
