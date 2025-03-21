@@ -63,7 +63,7 @@ var en = {
         },
         {
           "title": "Auction Real Estate Extraction and Filtering System",
-          "image": "images/auction-real-estate.jpg",
+          "image": "images/imoveis-leilao.png",
           "description": "This project was developed to automate the extraction, filtering, and organization of auction real estate data, ensuring greater efficiency in analysis and decision-making. The system consists of software for Windows and macOS that runs web scraping bots to collect information from various real estate auction websites and consolidate them into CSV files. Additionally, the tool allows for advanced property selection and filtering, enabling the generation of optimized reports based on user-defined criteria. The system was designed to be robust, efficient, and scalable, ensuring constant updates of auction data.",
           "githubLink": "https://github.com/cezarnovaes/Automacao-Imoveis"
         },
@@ -164,7 +164,7 @@ var pt = {
         },          
         {
           "title": "Sistema de Extração e Filtragem de Imóveis de Leilão",
-          "image": "images/imoveis-leilao.jpg",
+          "image": "images/imoveis-leilao.png",
           "description": "Este projeto foi desenvolvido para automatizar a extração, filtragem e organização de dados de imóveis de leilão, garantindo maior eficiência na análise e tomada de decisão. O sistema consiste em um software para Windows e macOS, que executa robôs de web scraping para coletar informações de diversos sites de leilão imobiliário e consolidá-las em arquivos CSV. Além disso, a ferramenta permite a seleção e filtragem avançada dos imóveis, possibilitando a geração de relatórios otimizados conforme critérios definidos pelo usuário. O sistema foi projetado para ser robusto, eficiente e escalável, garantindo atualizações constantes dos dados de leilão.",
           "githubLink": "https://github.com/cezarnovaes/Automacao-Imoveis"
         },
