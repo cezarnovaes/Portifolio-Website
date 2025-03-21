@@ -62,10 +62,10 @@ var en = {
           "githubLink": "https://iemi.com.br/ferramenta-de-pricing/"
         },
         {
-          "title": "Credit Card Registration System",
-          "image": "images/pic05.jpg",
-          "description": "This project was developed as a 4th-semester college assignment. It is a credit card registration and management system built in Java with a MySQL database connection. The system allows users to register, view, edit, and delete credit card information, as well as validate data such as card numbers and expiration dates. It demonstrates my skills in Java programming, database management, and data validation techniques.",
-          "githubLink": "https://github.com/cezarnovaes/Trabalho-Final-1"
+          "title": "Auction Real Estate Extraction and Filtering System",
+          "image": "images/auction-real-estate.jpg",
+          "description": "This project was developed to automate the extraction, filtering, and organization of auction real estate data, ensuring greater efficiency in analysis and decision-making. The system consists of software for Windows and macOS that runs web scraping bots to collect information from various real estate auction websites and consolidate them into CSV files. Additionally, the tool allows for advanced property selection and filtering, enabling the generation of optimized reports based on user-defined criteria. The system was designed to be robust, efficient, and scalable, ensuring constant updates of auction data.",
+          "githubLink": "https://github.com/cezarnovaes/Automacao-Imoveis"
         },
         {
           "title": "Sorting Algorithms Implementation in Python",
@@ -163,10 +163,10 @@ var pt = {
           "githubLink": "https://iemi.com.br/ferramenta-de-pricing/"
         },          
         {
-          "title": "Sistema de Cadastro de Cartões de Crédito",
-          "image": "images/pic05.jpg",
-          "description": "Este projeto foi desenvolvido como uma tarefa do 4º semestre da faculdade. É um sistema de cadastro e gerenciamento de cartões de crédito construído em Java com conexão a um banco de dados MySQL. O sistema permite que os usuários cadastrem, visualizem, editem e excluam informações de cartões de crédito, além de validar dados como números de cartão e datas de validade. Ele demonstra minhas habilidades em programação Java, gerenciamento de banco de dados e técnicas de validação de dados.",
-          "githubLink": "https://github.com/cezarnovaes/Trabalho-Final-1"
+          "title": "Sistema de Extração e Filtragem de Imóveis de Leilão",
+          "image": "images/imoveis-leilao.jpg",
+          "description": "Este projeto foi desenvolvido para automatizar a extração, filtragem e organização de dados de imóveis de leilão, garantindo maior eficiência na análise e tomada de decisão. O sistema consiste em um software para Windows e macOS, que executa robôs de web scraping para coletar informações de diversos sites de leilão imobiliário e consolidá-las em arquivos CSV. Além disso, a ferramenta permite a seleção e filtragem avançada dos imóveis, possibilitando a geração de relatórios otimizados conforme critérios definidos pelo usuário. O sistema foi projetado para ser robusto, eficiente e escalável, garantindo atualizações constantes dos dados de leilão.",
+          "githubLink": "https://github.com/cezarnovaes/Automacao-Imoveis"
         },
         {
           "title": "Implementação de Algoritmos de Ordenação em Python",
